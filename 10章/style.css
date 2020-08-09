@@ -55,6 +55,25 @@ main{
 	margin: 15px 0 5px;
 }
 
+@media screen and (max-width: 768px){
 
+  main{
+	width: 100%;
+	margin: 50px auto;
+  }
+  .step-box{
+  	width: 90%;
+  	float: none;
+  	margin: 0 auto;
+  }
+  .step-box:nth-child(2){
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  }
+  .step-box:nth-child(3){
+	margin-right: auto;
+  }
+
+}
 
 
